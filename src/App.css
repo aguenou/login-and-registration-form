@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(239, 192, 131);
+}
+
+.container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button{
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.link-btn{
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
